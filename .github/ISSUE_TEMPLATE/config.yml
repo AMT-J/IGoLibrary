@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 打开阅座
+    url: https://114.55.61.254/
+    about: 已经收到用户号与密码，直接进入网页使用。
+  - name: 私下报告安全问题
+    url: https://github.com/AMT-J/IGoLibrary/security/advisories/new
+    about: 越权、信息泄漏等安全问题请使用私密报告，不要公开个人信息或利用细节。

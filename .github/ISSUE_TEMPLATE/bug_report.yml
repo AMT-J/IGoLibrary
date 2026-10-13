@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 说明遇到的问题，个人信息请先隐藏。
+title: '[问题反馈] '
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: 设备与浏览器
+      placeholder: 例如 iPhone / Safari，Windows / Chrome
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: 发生时间（北京时间）
+      placeholder: 例如 2026-10-14 22:00
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤与实际结果
+      description: 描述如何发生、期望什么结果，以及页面的错误文字。
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 截图或补充信息（可选）
+      description: 请先隐藏姓名、学号、个人预约信息。不要发密码、Cookie 或微信授权链接。
+  - type: markdown
+    attributes:
+      value: 安全漏洞请通过仓库 Security 页的私密报告入口反馈，不要在公开 Issue 发布利用细节。

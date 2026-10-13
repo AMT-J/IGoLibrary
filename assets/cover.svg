@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="阅座，把时间留给阅读">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f5f8ff"/><stop offset="1" stop-color="#e8eef8"/></linearGradient>
+    <linearGradient id="blue" x2="1" y2="1"><stop stop-color="#7695c2"/><stop offset="1" stop-color="#4c6b99"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#bcc9df" stroke-opacity=".18"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#526c94" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1280" height="400" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="28" fill="url(#grid)"/>
+  <circle cx="1150" cy="45" r="170" fill="#ffffff" opacity=".45"/>
+  <circle cx="920" cy="375" r="160" fill="#aabede" opacity=".16"/>
+  <path d="M60 300h460M60 314h180" stroke="#c3d0e3" stroke-width="2"/>
+  <g font-family="PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+    <text x="68" y="78" font-size="16" letter-spacing="6" fill="#8092ad">A QUIETER WAY TO RESERVE</text>
+    <text x="64" y="170" font-size="74" font-weight="700" fill="#2c405d">阅座</text>
+    <text x="247" y="163" font-size="32" font-weight="500" fill="#56739b">IGoLibrary</text>
+    <text x="68" y="229" font-size="26" fill="#526b8b">把时间留给阅读。</text>
+    <text x="68" y="270" font-size="17" fill="#8190a4">云端预约 · 真实座位地图 · 手机与电脑</text>
+    <text x="68" y="357" font-size="13" letter-spacing="2" fill="#8b9cb4">BY AMT  /  2026</text>
+  </g>
+  <g transform="translate(725 68)" filter="url(#shadow)">
+    <rect x="0" y="0" width="458" height="266" rx="22" fill="#ffffff"/>
+    <path d="M0 54h458" stroke="#e7edf6"/>
+    <circle cx="26" cy="27" r="5" fill="#dfa0a7"/><circle cx="44" cy="27" r="5" fill="#ddc69a"/><circle cx="62" cy="27" r="5" fill="#8ec3a3"/>
+    <rect x="99" y="22" width="111" height="9" rx="4" fill="#e5ebf5"/>
+    <g transform="translate(25 76)">
+      <rect width="244" height="164" rx="12" fill="#f3f6fb"/>
+      <path d="M17 73h210M17 128h210" stroke="#d8c9b3" stroke-width="9" stroke-linecap="round"/>
+      <g fill="#8ec3a3"><rect x="23" y="20" width="30" height="30" rx="8"/><rect x="74" y="20" width="30" height="30" rx="8"/><rect x="23" y="90" width="30" height="26" rx="7"/><rect x="125" y="90" width="30" height="26" rx="7"/></g>
+      <g fill="#dfa0a7"><rect x="125" y="20" width="30" height="30" rx="8"/><rect x="176" y="90" width="30" height="26" rx="7"/></g>
+      <g fill="#95b5e5"><rect x="176" y="20" width="30" height="30" rx="8"/><rect x="74" y="90" width="30" height="26" rx="7"/></g>
+      <path d="m184 33 5 5 9-10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(303 88)">
+      <circle cx="52" cy="40" r="40" fill="#edf2fa"/>
+      <circle cx="52" cy="40" r="29" fill="#fff" stroke="#9bb2d2" stroke-width="2"/>
+      <path d="M52 21v21l14 8" stroke="#56739b" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect y="98" width="111" height="11" rx="5" fill="#dce5f2"/>
+      <rect x="14" y="120" width="83" height="8" rx="4" fill="#edf2f8"/>
+    </g>
+  </g>
+</svg>
