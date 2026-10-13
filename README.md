@@ -6,7 +6,8 @@
 
 **在浏览器里安排座位，把准点执行交给服务器。**
 
-[打开阅座](https://114.55.61.254/) · [免费申请账号](https://github.com/AMT-J/IGoLibrary/issues/new?template=account_request.yml) · [使用指南](docs/使用指南.md) · [反馈问题](https://github.com/AMT-J/IGoLibrary/issues/new?template=bug_report.yml)
+[打开阅座](https://114.55.61.254/) · [免费申请账号](https://github.com/AMT-J/IGoLibrary/security/advisories/new) · [使用指南](docs/使用指南.md) · [反馈问题](https://github.com/AMT-J/IGoLibrary/issues/new?template=bug_report.yml)
+
 
 申请与使用前请阅读 **[免责声明](DISCLAIMER.md)**。
 
@@ -29,17 +30,18 @@
 
 当前适配通过微信授权的 **Traceint（我去图书馆）** 座位系统。不同学校的接口、开放时间和规则可能不同，申请时可以说明学校，是否可用以实际登录和场馆返回为准。这是个人维护的项目，与学校及平台没有官方合作关系。
 
-## 免费使用，先申请一个账号
+## 免费账号申请
 
 服务免费提供。受当前服务器 CPU 性能限制，**最多开放 10 人**。
 
-1. 在 [Issues 新建使用申请](https://github.com/AMT-J/IGoLibrary/issues/new?template=account_request.yml)，留下能够收到邮件的邮箱。
-2. 有空余名额时，我会通过邮件发送**用户号和密码**；满额后申请进入等待。
-3. 打开网页，点击对应的用户卡片，输入密码，再完成自己的学校微信授权。
+1. 登录 GitHub，打开 [私密申请入口](https://github.com/AMT-J/IGoLibrary/security/advisories/new)。
+2. 标题填写 `[账号申请]`，选择“账号申请”，在正文说明申请意向；学校名称为可选信息。
+3. 有空余名额时，我会在**同一条私密对话**中回复用户号和密码。满额后申请进入等待。
+4. 收到账号后，打开网页，点击对应的用户卡片，验证密码并完成本人学校微信授权。
 
-首页固定显示 10 张卡片。灰色卡片是尚未开放的用户号，不能点击；收到账号后，使用邮件里对应的卡片即可。
+**无需提供邮箱。** 账号申请与凭据发放均在私密对话内完成，不会作为公开 Issue 展示。请保持报告私密，不要将包含账号密码的内容发布为公开公告。
 
-> Issue 和其中的邮箱会公开显示。请使用愿意公开的联系邮箱，**不要留下密码、Cookie、微信授权回跳链接、学号或个人预约截图**。账号信息只通过邮件发送，不会放在 Issue 回复里。
+GitHub 使用私密安全报告功能提供这个入口，表单已区分“账号申请”和“安全问题”。首页固定显示 10 张用户卡片，灰色卡片是尚未开放的用户号，不能点击。
 
 ## 功能
 
@@ -62,7 +64,7 @@
 
 ### 1 · 验证用户号
 
-打开 [阅座](https://114.55.61.254/)，点击分配给你的卡片，输入邮件里的密码。用户号密码验证和学校授权是两步：通过第一步后，仍需登录自己的学校账号才能管理预约。
+打开 [阅座](https://114.55.61.254/)，点击分配给你的卡片，输入私密对话中收到的密码。用户号密码验证和学校授权是两步：通过第一步后，仍需登录自己的学校账号才能管理预约。
 
 ### 2 · 完成学校微信授权
 
@@ -136,6 +138,6 @@
 
 **AMT | © 2026 All Rights Reserved**
 
-[开始使用](https://114.55.61.254/) · [申请账号](https://github.com/AMT-J/IGoLibrary/issues/new?template=account_request.yml)
+[开始使用](https://114.55.61.254/) · [私密申请账号](https://github.com/AMT-J/IGoLibrary/security/advisories/new)
 
 </div>

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 私密申请账号
+    url: https://github.com/AMT-J/IGoLibrary/security/advisories/new
+    about: 账号申请和账号密码发放均在私密对话中完成，无需邮箱。
   - name: 打开阅座
     url: https://114.55.61.254/
     about: 已经收到用户号与密码，直接进入网页使用。
